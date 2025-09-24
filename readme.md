@@ -6,7 +6,8 @@
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-##🚀 Características Principais
+## 🚀 Características Principais
+
 ✅ Interface Intuitiva: Design moderno e amigável inspirado no WhatsApp
 
 ✅ Mensagens Personalizadas: Use {nome} para personalizar cada mensagem
@@ -25,7 +26,7 @@
 
 ✅ Instalador Windows: Distribuição profissional com assistente de instalação
 
-##📋 Pré-requisitos
+## 📋 Pré-requisitos
 Windows 10/11 (64-bit)
 
 WhatsApp instalado no celular
@@ -34,8 +35,8 @@ Conexão com internet estável
 
 Arquivo CSV com contatos no formato: Nome;Telefone
 
-##🔧 Instalação
-Opção 1: Usar o Instalador (Recomendado)
+## 🔧 Instalação
+### Opção 1: Usar o Instalador (Recomendado)
 Baixe o arquivo Disparador WhatsApp Setup.exe
 
 Execute o instalador como administrador
@@ -44,10 +45,9 @@ Siga as instruções do assistente de instalação
 
 Inicie a aplicação pelo ícone na área de trabalho
 
-Opção 2: Executar do Código Fonte
-Bash
-
-### Clone o repositório
+### Opção 2: Executar do Código Fonte
+```bash
+# Clone o repositório
 git clone https://github.com/seu-usuario/disparador-whatsapp
 
 # Entre no diretório
@@ -58,31 +58,34 @@ npm install
 
 # Execute a aplicação
 npm start
+```
 
 ## 📊 Como Usar
-1. Preparar o Arquivo CSV
+### 1. Preparar o Arquivo CSV
 Crie um arquivo CSV com o seguinte formato:
 
-Snippet de código
+```csv
 
 João Silva;11999999999
 Maria Santos;21988888888
 Pedro Costa;(11) 77777-7777
-2. Configurar a Mensagem
-Digite sua mensagem no campo de texto
+```
 
-Use {nome} para personalização automática
+### 2. Configurar a Mensagem
+- Digite sua mensagem no campo de texto
+- Use `{nome}` para personalização automática
+- Exemplo: `Olá {nome}! Como você está hoje?`
 
-Exemplo: Olá {nome}! Como você está hoje?
+### 3. Iniciar o Processo
+1. **Selecione o arquivo CSV** com seus contatos
+2. **Clique em "Iniciar Envios"**
+3. **Escaneie o QR Code** com seu WhatsApp
+4. **Acompanhe o progresso** em tempo real
 
-3. Iniciar o Processo
-Selecione o arquivo CSV com seus contatos
-
-Clique em "Iniciar Envios"
-
-Escaneie o QR Code com seu WhatsApp
-
-Acompanhe o progresso em tempo real
+### 4. Controlar o Envio
+- **Pausar**: Interrompe temporariamente os envios
+- **Retomar**: Continua de onde parou
+- **Parar**: Finaliza completamente o processo
 
 ## ⏯️ Controles Durante o Envio
 Depois de iniciar o processo, você terá acesso aos seguintes controles em tempo real:
@@ -121,10 +124,6 @@ Pausas Inteligentes: Previne bloqueios automáticos do WhatsApp
 
 Relatórios de Erro: Identifica números inválidos automaticamente
 
-## 📱 Capturas de Tela
-Interface Principal
-QR Code de Autenticação
-Processo de Envio
 ## 🔧 Desenvolvimento
 Tecnologias Utilizadas
 Electron - Framework para aplicações desktop
@@ -137,7 +136,8 @@ QRCode - Geração de códigos QR
 
 Electron Builder - Empacotamento e distribuição
 
-Estrutura do Projeto
+### Estrutura do Projeto
+```
 disparador-whatsapp/
 ├── main.js              # Processo principal do Electron
 ├── preload.js           # Script de pré-carregamento
@@ -148,9 +148,10 @@ disparador-whatsapp/
 │   └── icon.ico         # Ícone da aplicação
 ├── docs/                # Documentação e capturas
 └── dist/                # Arquivos de distribuição
-Comandos de Build
-Bash
+```
 
+### Comandos de Build
+```bash
 # Desenvolvimento
 npm start
 
@@ -162,6 +163,7 @@ npm run pack
 
 # Instalar dependências nativas
 npm run postinstall
+```
 ## 🚨 Limitações e Avisos
 ⚠️ Use com responsabilidade: Respeite as políticas do WhatsApp
 
@@ -200,7 +202,7 @@ Reinicie a aplicação se necessário
 ## 📞 Suporte
 Encontrou um bug ou tem uma sugestão?
 
-📧 Email: suporte@disparadorwhatsapp.com
+📧 Email: ra.evangelist@gmail.com | hiukky.ra@gmail.com
 
 🐛 Issues: GitHub Issues
 
@@ -245,4 +247,5 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 Se este projeto te ajudou, considere dar uma ⭐!
 
 </div>
+
 
