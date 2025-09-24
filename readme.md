@@ -1,7 +1,12 @@
-📱 Disparador WhatsApp Desktop
-Uma aplicação desktop poderosa para envio de mensagens personalizadas em massa via WhatsApp Web
+# 📱 Disparador WhatsApp Desktop
+> **Uma aplicação desktop poderosa para envio de mensagens personalizadas em massa via WhatsApp Web**
 
-🚀 Características Principais
+![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+##🚀 Características Principais
 ✅ Interface Intuitiva: Design moderno e amigável inspirado no WhatsApp
 
 ✅ Mensagens Personalizadas: Use {nome} para personalizar cada mensagem
@@ -20,7 +25,7 @@ Uma aplicação desktop poderosa para envio de mensagens personalizadas em massa
 
 ✅ Instalador Windows: Distribuição profissional com assistente de instalação
 
-📋 Pré-requisitos
+##📋 Pré-requisitos
 Windows 10/11 (64-bit)
 
 WhatsApp instalado no celular
@@ -29,7 +34,7 @@ Conexão com internet estável
 
 Arquivo CSV com contatos no formato: Nome;Telefone
 
-🔧 Instalação
+##🔧 Instalação
 Opção 1: Usar o Instalador (Recomendado)
 Baixe o arquivo Disparador WhatsApp Setup.exe
 
@@ -42,7 +47,7 @@ Inicie a aplicação pelo ícone na área de trabalho
 Opção 2: Executar do Código Fonte
 Bash
 
-# Clone o repositório
+### Clone o repositório
 git clone https://github.com/seu-usuario/disparador-whatsapp
 
 # Entre no diretório
@@ -53,7 +58,8 @@ npm install
 
 # Execute a aplicação
 npm start
-📊 Como Usar
+
+## 📊 Como Usar
 1. Preparar o Arquivo CSV
 Crie um arquivo CSV com o seguinte formato:
 
@@ -78,7 +84,7 @@ Escaneie o QR Code com seu WhatsApp
 
 Acompanhe o progresso em tempo real
 
-⏯️ Controles Durante o Envio
+## ⏯️ Controles Durante o Envio
 Depois de iniciar o processo, você terá acesso aos seguintes controles em tempo real:
 
 Pausar: Interrompe temporariamente o envio de mensagens. Ideal para atender a outra demanda ou verificar a conexão.
@@ -87,7 +93,7 @@ Retomar: Continua o processo de envio do ponto em que foi pausado.
 
 Parar e Sair: Encerra completamente a sessão de envio. Ao final, um relatório será exibido.
 
-📄 Relatório Final e Download
+## 📄 Relatório Final e Download
 Ao final de cada processo (seja por conclusão ou interrupção), a aplicação exibirá um relatório completo com:
 
 Total de Contatos Processados
@@ -98,7 +104,7 @@ Número de Falhas
 
 Se houver alguma falha, um botão "Baixar Relatório de Falhas" ficará disponível, permitindo que você salve um arquivo .csv com os detalhes dos contatos que não receberam a mensagem e o motivo do erro.
 
-⚙️ Configurações Inteligentes
+## ⚙️ Configurações Inteligentes
 Recurso	Descrição	Valor
 Delay entre mensagens	Intervalo para evitar spam	15 segundos
 Pausa automática	A cada X mensagens	50 mensagens
@@ -106,7 +112,7 @@ Tempo de pausa	Duração da pausa automática	60 segundos
 Formato do número	Código do país + número	+55 (Brasil)
 
 Exportar para as Planilhas
-🛡️ Recursos de Segurança
+## 🛡️ Recursos de Segurança
 Autenticação Local: Suas credenciais ficam no seu computador
 
 Sem Armazenamento: Não salvamos seus contatos ou mensagens
@@ -115,11 +121,11 @@ Pausas Inteligentes: Previne bloqueios automáticos do WhatsApp
 
 Relatórios de Erro: Identifica números inválidos automaticamente
 
-📱 Capturas de Tela
+## 📱 Capturas de Tela
 Interface Principal
 QR Code de Autenticação
 Processo de Envio
-🔧 Desenvolvimento
+## 🔧 Desenvolvimento
 Tecnologias Utilizadas
 Electron - Framework para aplicações desktop
 
@@ -156,7 +162,7 @@ npm run pack
 
 # Instalar dependências nativas
 npm run postinstall
-🚨 Limitações e Avisos
+## 🚨 Limitações e Avisos
 ⚠️ Use com responsabilidade: Respeite as políticas do WhatsApp
 
 ⚠️ Não spam: Evite envios excessivos que possam ser considerados spam
@@ -165,7 +171,7 @@ npm run postinstall
 
 ⚠️ Conexão estável: Mantenha internet estável durante os envios
 
-🐛 Solução de Problemas
+## 🐛 Solução de Problemas
 Problemas Comuns
 ❓ QR Code não aparece
 
@@ -191,7 +197,7 @@ Verifique se há memória RAM suficiente
 
 Reinicie a aplicação se necessário
 
-📞 Suporte
+## 📞 Suporte
 Encontrou um bug ou tem uma sugestão?
 
 📧 Email: suporte@disparadorwhatsapp.com
@@ -200,13 +206,13 @@ Encontrou um bug ou tem uma sugestão?
 
 💬 Discussões: GitHub Discussions
 
-📄 Licença
+## 📄 Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedor
 Rodrigo Angelo
 
-⭐ Contribuições
+## ⭐ Contribuições
 Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 
 🍴 Faça um Fork do projeto
@@ -219,7 +225,7 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 
 🔃 Abra um Pull Request
 
-📈 Roadmap
+## 📈 Roadmap
 [ ] v2.0: Suporte a imagens e documentos
 
 [ ] v2.1: Agendamento de mensagens
@@ -239,3 +245,4 @@ Contribuições são sempre bem-vindas! Veja como você pode ajudar:
 Se este projeto te ajudou, considere dar uma ⭐!
 
 </div>
+
